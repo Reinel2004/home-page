@@ -36,7 +36,7 @@ header{
 .navbar a{
     font-weight: 100;
     margin: 0px 10px;
-    transition: all .50s ease;
+    transition: all .40s ease;
 }
 header .nav-item a:hover{
     color: var(--main-color);
@@ -65,16 +65,16 @@ header .active a:hover{
     height: 100% !important;
     width:  100% !important;  
 } 
-.main a{
+/* .main a{
     margin-right: 25px;
     margin-left: 10px;
     font-size: 1.1rem;
     font-weight: 500;
     transition: all .50s ease;
-}
-.main a:hover{
+} */
+/* .main a:hover{
     color: var(--main-color);
-}
+} */
 .card{
     margin-top: 30px;
 }
