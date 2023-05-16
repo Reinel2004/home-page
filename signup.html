@@ -94,43 +94,53 @@
     </nav>
   </header>
 
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-md-6">
-        <div class="card mt-5">
-          <div class="card-header bg-black text-white">
-            <div class="float-start">
-                <img style="width: 40px; display: flex; justify-content: center;" src="img/logo.png" alt="">
+  <main>
+    <div class="container">
+        <div class="row">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                  <div class="card mt-5">
+                    <div class="card-header bg-black text-white">
+                         
+                      <h4 class="text-center">Sign up</h4>
+                    </div>
+                    <div class="card-body" style="padding-left: 50px;">
+                      <form>
+                        <div class="col-12 col-lg-6 col-sm-6 float-start">
+                          <label for="text" class="form-label">First Name</label>
+                          <input type="text" class="form-control" style="width: 80%;" id="text" aria-describedby="emailHelp">
+                        </div>
+                        <div class="col-12 col-lg-6 col-sm-6 float-start">
+                          <label for="text" class="form-label">Last Name</label>
+                          <input type="text" class="form-control" style="width: 80%;" id="text" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                          <label for="email" class="form-label">E-mail</label>
+                          <input type="email" class="form-control" style="width: 90%;" id="text" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                          <label for="password" class="form-label">Password</label>
+                          <input type="password" class="form-control" style="width: 90%;" id="password">
+                        </div>
+                        <div class="mb-3">
+                          <label for="password" class="form-label">Confirm Password</label>
+                          <input type="password" class="form-control" style="width: 90%;" id="password">
+                        </div>
+                        <br>
+                        <button type="submit" class="btn btn-primary float-center" style="width: 40%;">Register</button>
+                        <div class="text-center">
+                            <br>
+                          <p style="padding-right: 60px;">Already have a account? <br><a href="signin.html">Login here</a></p>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-               
-            <h4 class="text-center">Pop's Vapehub Sign-in</h4>
-          </div>
-          <div class="card-body">
-            <form>
-              <div class="mb-3">
-                <label for="email" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
-              </div>
-              <div class="mb-3">
-                <label for="password" class="form-label">Password</label>
-                <input type="password" class="form-control" id="password">
-              </div>
-              <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="rememberMe">
-                <label class="form-check-label" for="rememberMe">Remember me</label>
-              </div>
-              <button type="submit" class="btn btn-primary">Login</button>
-              <a href="#" class="btn btn-link">Forgot password?</a>
-              <hr>
-              <div class="text-center">
-                <p>You don't hava a account? <br><a href="signup.html">Sign up here</a></p>
-              </div>
-            </form>
-          </div>
         </div>
-      </div>
-    </div>
-  </div>
+       
+  </main>
 
 
   <footer class="bg-black text-white pt-5 pb-4 mt-5">
