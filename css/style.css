@@ -32,6 +32,7 @@ body{
 }
 header .nav-item a:hover{
     color: var(--main-color);
+    background-color: #222327;
     border-bottom: #29fd53 1px solid;
     border-top: #29fd53 1px solid;
 }
