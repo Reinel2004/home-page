@@ -5,6 +5,16 @@
     text-decoration: none;
     list-style: none;
 }
+@font-face {
+    font-family: light-tommy;
+    src: url(../fonts/light-tommy.otf
+    );
+}
+@font-face {
+    font-family: coolvetica-rg;
+    src: url(../fonts/coolvetica.otf
+    );
+}
 :root{
     --bg-color: #222327;
     --main-color: #29fd53;
@@ -32,7 +42,7 @@ header{
 }
 .navbar a{
     font-weight: 90;
-    margin: 0px 10px;
+    margin: 0px 5px;
     transition: all .40s ease;
     color: #fff;
 }
@@ -65,3 +75,4 @@ header .active a:hover{
 .custom-modal-width {
     max-width: 400px;
 }
+
