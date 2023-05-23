@@ -16,16 +16,14 @@
     );
 }
 :root{
-    --bg-color: #222327;
     --main-color: #29fd53;
-    --header-color: #fff;
 }
 body{
    background-color: whitesmoke;
    font-family: Arial, Helvetica, sans-serif;
 }
 header{
-    margin-bottom: 7.8rem;
+    margin-bottom: 6rem;
 }
 .logo{
     display: flex;
@@ -42,7 +40,7 @@ header{
 }
 .navbar a{
     font-weight: 90;
-    margin: 0px 5px;
+    margin: 0px 10px;
     transition: all .40s ease;
     color: #fff;
 }
@@ -61,7 +59,8 @@ header .nav-item a:hover{
 }
 header .active a:hover{
     border-bottom: #29fd53 1px solid;
-    border-top: #29fd53 1px solid;   
+    border-top: #29fd53 1px solid;  
+    background-color: #222327; 
 }
 .navbar-toggler-icon {
     filter: brightness(0) invert(1);
