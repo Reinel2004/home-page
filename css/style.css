@@ -29,9 +29,6 @@ header{
     display: flex;
     align-items: center;
 }
-.logo img{
-    width: 40px;
-}
 .navbar{
     display: flex;
 }
@@ -40,8 +37,7 @@ header{
 }
 .navbar a{
     font-weight: 90;
-    margin: 0px 10px;
-    transition: all .40s ease;
+    margin: 0px 4.9px;
     color: #fff;
 }
 .dropdown-menu a{
